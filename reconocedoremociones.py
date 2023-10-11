@@ -6,7 +6,7 @@ from deepface import DeepFace
 cap = cv2.VideoCapture(0)
 
 # Cargar la imagen del banner
-image_path = 'src/banner.png'  # Reemplaza con la ruta correcta de la imagen
+image_path = 'banner.png'  # Reemplaza con la ruta correcta de la imagen
 image = cv2.imread(image_path)
 
 # Obtener las dimensiones originales del banner
